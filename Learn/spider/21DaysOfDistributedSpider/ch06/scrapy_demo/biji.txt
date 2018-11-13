@@ -1,0 +1,17 @@
+糗事百科爬虫笔记：
+1. response是一个‘scrapy.http.response.html.HtmlResponse’对象，可以执行xpath和css语法来提取数据
+2. 提取出来的数据是一个selector或selectorList对象，如果想要获取其中的字符串，应该执行get()或者getall()方法
+3. getall方法：获取selector中的所有文本，返回一个列表。
+4. get方法：获取的是selector中的第一个文本，返回的是一个str类型
+5. 如果数据解析回来要传给pipeline处理，那么可以使用yield来返回，或者是手机所有的item，最后同意使用return返回
+6. item:建议在items.py定义好模型，以后就不要使用字典
+7. pipeline：这个是专门用来保存数据的，其中有三个方法是经常使用的。
+    *open_spider(self, spider):当爬虫被打开的时候执行
+    *process_item(self, item, spider):当爬虫有item传过来的时候会被调用
+    *close_spider(self, spider):关闭爬虫的时候调用
+   要激活pipeline，应该在settings.py中，设置‘ITEM PIPELINES’
+   示例如下：
+
+   ITEM_PIPELINES = {
+   'qsbk.pipelines.QsbkPipeline': 300,
+   }
