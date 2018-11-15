@@ -12,6 +12,74 @@
    要激活pipeline，应该在settings.py中，设置‘ITEM PIPELINES’
    示例如下：
 
-   ITEM_PIPELINES = {
+   ITEM_PIPELINES用JsonItemExporter生成的数据先保存到内存，最后一起保存到文件，耗内存
+from scrapy.exporters import JsonItemExporter
+class QsbkPipeline(object):
+
+    def __init__(self):
+        self.fp = open('duanzi.json', 'wb')
+        self.exporter = JsonItemExporter(self.fp, ensure_ascii=False, encoding='utf-8')
+        self.exporter.start_exporting()
+
+    def open_spider(self, spider):
+        print("爬虫开始了....")
+
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self, spider):
+        self.exporter.finish_exporting()
+        self.fp.close()
+        print("爬虫结束了。") = {
    'qsbk.pipelines.QsbkPipeline': 300,
    }
+
+8.## JsonItemExporter和JsonLinesItemExporter
+保存json数据的时候，可以使用这俩个类，让操作变得简单
+>1.‘JsonItemExporter’:这个是每次把数据添加到内存，最后统一写入到磁盘中，好处是，存储的数据是一个满足json规则的数据，坏处
+是如果数据量较大，那么比较耗内存。示例代码如下：
+'''
+    from scrapy.exporters import JsonItemExporter
+    class QsbkPipeline(object):
+
+        def __init__(self):
+            self.fp = open('duanzi.json', 'wb')
+            self.exporter = JsonItemExporter(self.fp, ensure_ascii=False, encoding='utf-8')
+            self.exporter.start_exporting()
+
+        def open_spider(self, spider):
+            print("爬虫开始了....")
+
+        def process_item(self, item, spider):
+            self.exporter.export_item(item)
+            return item
+
+        def close_spider(self, spider):
+            self.exporter.finish_exporting()
+            self.fp.close()
+            print("爬虫结束了。")
+'''
+>2 'JsonLinesItemExporter':这个是每次调用exporte_item的时候就把item存储到硬盘中，坏处是每一个字典是一行，整个文件不是
+一个满足json格式的文件。好处是每次处理数据的时候直接存储到了硬盘，这样不会耗内存，数据也比较安全.示例代码如下：
+'''from scrapy.exporters import JsonLinesItemExporter
+
+
+class QsbkPipeline(object):
+
+    def __init__(self):
+        self.fp = open('duanzi3.json', 'wb')
+        self.exporter = JsonLinesItemExporter(self.fp, ensure_ascii=False, encoding='utf-8')
+
+    def open_spider(self, spider):
+        print("爬虫开始了....")
+
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self, spider):
+        self.fp.close()
+        print("爬虫结束了。")
+
+'''
