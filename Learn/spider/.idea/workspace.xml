@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f0469d9c-506e-49c5-ae1d-cd4fd2360314" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/biji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/biji.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi.json" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/spiders/qsbk_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/spiders/qsbk_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tensorflow-learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow-learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../scrapy_learn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrapy_learn/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../scrapy_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrapy_learn/.idea/workspace.xml" afterDir="false" />
@@ -114,13 +108,13 @@
           <entry key="pipelines" value="2" />
           <entry key="py" value="35559" />
           <entry key="spider" value="43" />
-          <entry key="txt" value="1033" />
+          <entry key="txt" value="1040" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="1075" />
+          <entry key="PLAIN_TEXT" value="1082" />
           <entry key="Python" value="37925" />
         </counts>
       </usages-collector>
@@ -133,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/spiders/qsbk_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="475">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -146,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/biji.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1114">
-              <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -179,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/start.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -188,7 +182,7 @@
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12825">
-              <caret line="675" lean-forward="true" selection-start-line="675" selection-end-line="675" />
+              <caret line="675" selection-start-line="675" selection-end-line="675" />
             </state>
           </provider>
         </entry>
@@ -301,8 +295,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
-    <option name="y" value="106" />
+    <option name="x" value="30" />
+    <option name="y" value="105" />
     <option name="width" value="1302" />
     <option name="height" value="942" />
   </component>
@@ -373,7 +367,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scrapy_learn" />
+    <property name="last_opened_file_path" value="F:/keruan/AI/exercise/exercise4/ocr_tensorflow_cnn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
@@ -565,6 +559,14 @@
       <option name="presentableId" value="Default" />
       <updated>1540522779911</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify">
+      <created>1542279680961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542279680961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -618,7 +620,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.44019935" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.4543947" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4995958" visible="true" weight="0.44019935" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4995958" weight="0.44019935" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -655,6 +657,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo7.py">
@@ -930,7 +936,7 @@
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/biji.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1114">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -944,14 +950,14 @@
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12825">
-          <caret line="675" lean-forward="true" selection-start-line="675" selection-end-line="675" />
+          <caret line="675" selection-start-line="675" selection-end-line="675" />
         </state>
       </provider>
     </entry>
@@ -974,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/spiders/qsbk_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
