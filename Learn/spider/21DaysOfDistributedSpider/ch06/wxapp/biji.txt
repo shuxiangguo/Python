@@ -1,0 +1,6 @@
+Crawspider：
+需要使用LinkExtrator和Rule，这俩个东西决定爬虫的具体走向
+1.allow的设置规则：要能够限制在我们想要的url上面，不要和其他的url产生相同的正则表达式就行
+2.什么情况下使用follow：如果在爬取页面的时候，需要将满足当前条件的url再进行跟进，那么就设置为True，否则False
+3.什么情况下指定callback：如果这个url对应的页面，只是为了获取更多的url，并不需要里面的数据，那么可以不指定callback，
+如果想要获取url对应页面的数据，那么就需要指定一个callback
