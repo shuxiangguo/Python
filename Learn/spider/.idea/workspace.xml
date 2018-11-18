@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0469d9c-506e-49c5-ae1d-cd4fd2360314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/biji.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/spiders/wxapp_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxjc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tensorflow-learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow-learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ml/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ml/mnist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ml/mnist/.idea/workspace.xml" afterDir="false" />
@@ -70,13 +59,13 @@
     <session id="1723232963">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -84,7 +73,7 @@
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -140,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/spiders/wxapp_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="475">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -161,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxjc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="150">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -541,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542282406012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify">
+      <created>1542513446737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542513446738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -578,8 +574,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49552238" visible="true" weight="0.19482619" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49552238" visible="true" weight="0.19805983" />
       <window_info id="Structure" order="1" sideWeight="0.5044776" side_tool="true" weight="0.19725141" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -592,8 +589,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.44019935" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47840533" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.47840533" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.47840533" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4995958" weight="0.3554817" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -904,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxapp/spiders/wxapp_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="475">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
@@ -945,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/wxapp/wxjc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="150">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>

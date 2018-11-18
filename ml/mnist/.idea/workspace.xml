@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22d21bbb-e3d3-46f4-8457-acbb3ae07e17" name="Default" comment="" />
+    <list default="true" id="22d21bbb-e3d3-46f4-8457-acbb3ae07e17" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Learn/spider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Learn/spider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Learn/spider/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Learn/spider/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Learn/tensorflow-learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Learn/tensorflow-learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scrapy_learn/quotesbot" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrapy_learn/quotesbot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scrapy_learn/scrapy-learn" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrapy_learn/scrapy-learn" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +31,16 @@
     <session id="1964228878">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.89" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -77,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05_convolutional_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+            <state relative-caret-position="159">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -106,6 +112,9 @@
       <find>TestingDataRatio</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -129,16 +138,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="421" />
-    <option name="y" value="127" />
+    <option name="x" value="420" />
+    <option name="y" value="126" />
     <option name="width" value="1302" />
     <option name="height" value="942" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,8 +346,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17623281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17865804" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,7 +369,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.48424545" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="273" height="535" id="Documentation" order="5" sideWeight="0.5157546" side_tool="true" weight="0.32983023" />
+      <window_info anchor="right" x="0" y="0" width="273" height="535" id="Documentation" order="5" sideWeight="0.5157546" side_tool="true" visible="true" weight="0.32983023" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_convolutional_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        <state relative-caret-position="159">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
