@@ -2,73 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0469d9c-506e-49c5-ae1d-cd4fd2360314" name="Default Changelist" comment="modify">
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/7-La668110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChcCSVuqOceAQyiPAAVkdmn8XEU767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEf1uqOcmAbTr0AAdv4TA00k0654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEfVuqOdSAacwwAAekESzp0n4618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEnluqOdaAQqFEAAer3DK6yMI241.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEnluqOdiADBK6AAhhC8LlxR4846.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEoFuqOcuAZ3PhAAU3qDsGRSI206.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/s141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChcCRVuqOYCAcRy8AAdnc9xkFts069.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChcCRVuqOYaAcaTiAAcm2vshEHw647.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEkVuqOYWACcO6AAcFUlQp0KQ734.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEkVuqOYqAZOOVAAmPZs48nw4008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEm1uqOX2ATocLAAT6wZTh68c605.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEm1uqOYGAKnnEAAU7DJYGiqE316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEm1uqOYOAbxF7AAayhAYDUSo115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/其它细节/ChsEm1uqOYmAZTAdAAdwRQVx55c937.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221937277794122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221937507274122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221937544014122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221937587764122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221938030124122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221938076224122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221938116314122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/201208221938156714122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/ChcCr1qc0sGAInpKAArHdY3KG8w630.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/wKgHH1qc0sCABQpuAApaHrvOm0M034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/wKgHIFqc0r-AXvUgAAlZdJANy3c115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/wKgHIFqc0r6AQQ37AAmEqbSIvME789.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/wKgHIVqc0sSAUuz3AAmQZzasscY197.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/wKgHIlqc0sOAbJBLAArcPFIQh4k091.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/8AAS6LRDfB3g432.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChcCR1uqOimAd8M2AAjEZbYqqzE279.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi-AFk4uAAYsKgsWg0M683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi6ALJ9NAAavhbdCtzA780.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEmVuqOiGAe9wqAAYj5wsqRH0637.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEnluqOiOAKlOvAAbqpvVJnB0665.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/QAAYqcBV1GTo457.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/fAAadKIc6o1c999.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChcCR1vz186APeY-AAsBDjt16F0100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChcCSVuqOj2AVLxBAAgLtfMy7P4008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChcCSVuqOjyAAaCTAAjwwfPMLqk900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChsEf1uqOj-AfyUnAAem6nUDHE4144.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChsEfVuqOjKAU0L2AAbqcWi0zqc105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChsEnluqOjGABKqaAAeSzV7pUbA132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/ChsEoFuqOjqAdo23AAeiy37ecnc681.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车身外观/JgBI973.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/ChcCr1qyYg6AAHTLAAQ6oLEkkUs489.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/ChcCr1qyYgmAXdIJAANDerVoKh4027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/ChcCr1qyYguAAHw9AAPJrNsX7N8446.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/ChcCr1qzFP2ASYIEAAOKoXwEiB4825.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/HU760.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/wKgHIFqyYgyAFFUmAANt5CWNyKM181.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/wKgHIlqyYg6AevCdAAISpcVvZ8Y242.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/重要特点/wKgHIlqzFPuAdLAXAANXONSaE8E730.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/douban_login/douban_login/spiders/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/douban_login/douban_login/spiders/douban.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../scrapy_learn/.idea/dataSources/ee17ac17-9907-47d6-82bb-3612decac4ee.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../scrapy_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrapy_learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,11 +87,11 @@
           <entry key="gif" value="6" />
           <entry key="html" value="20" />
           <entry key="jpeg" value="6" />
-          <entry key="jpg" value="24" />
+          <entry key="jpg" value="27" />
           <entry key="json" value="11" />
           <entry key="md" value="1" />
           <entry key="png" value="5" />
-          <entry key="py" value="154" />
+          <entry key="py" value="155" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="8" />
         </counts>
@@ -162,12 +100,12 @@
         <counts>
           <entry key="CSV" value="24" />
           <entry key="HTML" value="20" />
-          <entry key="Image" value="41" />
+          <entry key="Image" value="44" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="154" />
+          <entry key="Python" value="155" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -177,9 +115,9 @@
           <entry key="demo1" value="8" />
           <entry key="dummy" value="42" />
           <entry key="html" value="1" />
-          <entry key="md" value="49" />
+          <entry key="md" value="51" />
           <entry key="pipelines" value="2" />
-          <entry key="py" value="40420" />
+          <entry key="py" value="41329" />
           <entry key="spider" value="43" />
           <entry key="txt" value="2068" />
         </counts>
@@ -187,9 +125,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="49" />
+          <entry key="Markdown" value="51" />
           <entry key="PLAIN_TEXT" value="2110" />
-          <entry key="Python" value="43007" />
+          <entry key="Python" value="43916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -201,31 +139,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="e#194#203#0" expanded="true" />
-                <marker date="1543212637299" expanded="true" signature="281:447" ph="..." />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <folding>
+                <element signature="e#194#203#0" expanded="true" />
+                <marker date="1543220356604" expanded="true" signature="358:524" ph="..." />
+                <marker date="1543220356604" expanded="true" signature="1083:1279" ph="..." />
+                <marker date="1543220356604" expanded="true" signature="1274:1275" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/pipelines/images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="161" column="12" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="19">
+                <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -235,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -248,10 +197,7 @@
         <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <marker date="1543212535292" expanded="true" signature="196:201" ph="..." />
-              </folding>
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -275,6 +221,7 @@
       <find>delay</find>
       <find>download delay</find>
       <find>start_request</find>
+      <find>file</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -328,12 +275,12 @@
         <option value="$PROJECT_DIR$/142.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/douban_login/douban_login/spiders/douban.py" />
         <option value="$PROJECT_DIR$/tt.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" />
       </list>
     </option>
   </component>
@@ -344,8 +291,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="381" />
+    <option name="y" value="132" />
     <option name="width" value="1170" />
     <option name="height" value="801" />
   </component>
@@ -373,6 +320,21 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
               <item name="ch06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
+              <item name="bmw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
+              <item name="bmw" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -638,7 +600,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49552238" visible="true" weight="0.24171382" />
       <window_info id="Structure" order="1" sideWeight="0.5044776" side_tool="true" weight="0.19725141" />
@@ -654,7 +615,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.47840533" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.43687707" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.29734218" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4995958" weight="0.3554817" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -698,28 +659,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/http/response/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2638">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/http/response/html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/project_demo/lagou_selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21.py" />
     <entry file="file://$PROJECT_DIR$/876.py" />
     <entry file="file://$PROJECT_DIR$/21MergeList.py" />
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi.json">
@@ -917,23 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <marker date="1543212535292" expanded="true" signature="196:201" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEf1uqOcmAbTr0AAdv4TA00k0654.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -958,37 +880,69 @@
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/fAAadKIc6o1c999.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/ChcCr1qc0sGAInpKAArHdY3KG8w630.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="19">
+            <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="234">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#194#203#0" expanded="true" />
-            <marker date="1543212637299" expanded="true" signature="281:447" ph="..." />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/pipelines/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="161" column="12" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/5b8cb774ab8b31c6ea3e06c86ae3ea967abdc7e9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/3a3cdd67fbbb2e47592dbeed59c03f71347c1df1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
+            <marker date="1543220356604" expanded="true" signature="358:524" ph="..." />
+            <marker date="1543220356604" expanded="true" signature="1083:1279" ph="..." />
+            <marker date="1543220356604" expanded="true" signature="1274:1275" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
