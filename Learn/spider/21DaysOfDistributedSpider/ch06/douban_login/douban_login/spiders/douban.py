@@ -46,7 +46,7 @@ class DoubanSpider(scrapy.Spider):
             print(ck)
             formdata = {
                 'ck': ck,
-                'signature': 'I am shuxiangguo'
+                'signature': 'hello'
             }
             yield scrapy.FormRequest(url=self.edit_signatur_url, formdata=formdata)
         else:
