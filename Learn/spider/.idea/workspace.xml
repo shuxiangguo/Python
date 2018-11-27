@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0469d9c-506e-49c5-ae1d-cd4fd2360314" name="Default Changelist" comment="modify">
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/spiders/httpbin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +33,7 @@
     <SUITE FILE_PATH="coverage/spider$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1541163429420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch03/gushici" />
     <SUITE FILE_PATH="coverage/spider$boss_spider.coverage" NAME="boss_spider Coverage Results" MODIFIED="1542093437398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/project_demo" />
     <SUITE FILE_PATH="coverage/spider$start.coverage" NAME="start Coverage Results" MODIFIED="1542283762906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk" />
+    <SUITE FILE_PATH="coverage/spider$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1543326942840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo" />
     <SUITE FILE_PATH="coverage/spider$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1541308868931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/thread_demo" />
     <SUITE FILE_PATH="coverage/spider$remove203.coverage" NAME="remove203 Coverage Results" MODIFIED="1540986484702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$pytest_in_test_load_py.coverage" NAME="pytest in test_load.py Coverage Results" MODIFIED="1541176978148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch04/json_demo" />
@@ -35,6 +41,7 @@
     <SUITE FILE_PATH="coverage/spider$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1541492521831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo" />
     <SUITE FILE_PATH="coverage/spider$baisibudeqijie.coverage" NAME="baisibudeqijie Coverage Results" MODIFIED="1541426210434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/thread_demo" />
     <SUITE FILE_PATH="coverage/spider$328.coverage" NAME="328 Coverage Results" MODIFIED="1542799799281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider$700.coverage" NAME="700 Coverage Results" MODIFIED="1543323650364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$my_urlretrieve.coverage" NAME="my_urlretrieve Coverage Results" MODIFIED="1540625180363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch02" />
     <SUITE FILE_PATH="coverage/spider$project_demo.coverage" NAME="project_demo Coverage Results" MODIFIED="1541561081721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05" />
     <SUITE FILE_PATH="coverage/spider$ajax_spider.coverage" NAME="ajax_spider Coverage Results" MODIFIED="1541439410412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05" />
@@ -50,6 +57,7 @@
     <SUITE FILE_PATH="coverage/spider$spider.coverage" NAME="spider Coverage Results" MODIFIED="1541920894283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/qiangpiao" />
     <SUITE FILE_PATH="coverage/spider$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1541506633931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo" />
     <SUITE FILE_PATH="coverage/spider$demo.coverage" NAME="demo Coverage Results" MODIFIED="1541476862893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo" />
+    <SUITE FILE_PATH="coverage/spider$617.coverage" NAME="617 Coverage Results" MODIFIED="1543320923925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$lagou_selenium__1_.coverage" NAME="lagou_selenium (1) Coverage Results" MODIFIED="1542092963288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/project_demo" />
     <SUITE FILE_PATH="coverage/spider$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1541484836455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo" />
     <SUITE FILE_PATH="coverage/spider$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1541512332698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo" />
@@ -91,7 +99,7 @@
           <entry key="json" value="11" />
           <entry key="md" value="1" />
           <entry key="png" value="5" />
-          <entry key="py" value="155" />
+          <entry key="py" value="163" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="8" />
         </counts>
@@ -105,7 +113,7 @@
           <entry key="JSON" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="155" />
+          <entry key="Python" value="163" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -117,7 +125,7 @@
           <entry key="html" value="1" />
           <entry key="md" value="51" />
           <entry key="pipelines" value="2" />
-          <entry key="py" value="41329" />
+          <entry key="py" value="43487" />
           <entry key="spider" value="43" />
           <entry key="txt" value="2068" />
         </counts>
@@ -127,7 +135,7 @@
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="51" />
           <entry key="PLAIN_TEXT" value="2110" />
-          <entry key="Python" value="43916" />
+          <entry key="Python" value="46074" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -137,55 +145,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py">
+        <entry file="file://$PROJECT_DIR$/617.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="14">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
-                <element signature="e#194#203#0" expanded="true" />
-                <marker date="1543220356604" expanded="true" signature="358:524" ph="..." />
-                <marker date="1543220356604" expanded="true" signature="1083:1279" ph="..." />
-                <marker date="1543220356604" expanded="true" signature="1274:1275" ph="..." />
+                <marker date="1543320923803" expanded="true" signature="106:108" ph="..." />
+                <marker date="1543320923803" expanded="true" signature="216:219" ph="..." />
+                <marker date="1543320923803" expanded="true" signature="392:394" ph="..." />
+                <marker date="1543320923803" expanded="true" signature="689:974" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/pipelines/images.py">
+        <entry file="file://$PROJECT_DIR$/700.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="161" column="12" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="12" />
+            <state relative-caret-position="286">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="19">
-                <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/spiders/httpbin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="119">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -194,10 +181,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
+        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="134">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+              <folding>
+                <element signature="e#169#195#0" expanded="true" />
+                <marker date="1543326735138" expanded="true" signature="3936:3939" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -230,12 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/thread_demo/duanzi.csv" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/thread_demo/baisibudeqijie.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo1.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo.py" />
-        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo2.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo4.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo3.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch05/ajax_spider_demo/demo5.py" />
@@ -281,6 +284,12 @@
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py" />
         <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py" />
+        <option value="$PROJECT_DIR$/617.py" />
+        <option value="$PROJECT_DIR$/700.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/start.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/settings.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/middlewares.py" />
+        <option value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/spiders/httpbin.py" />
       </list>
     </option>
   </component>
@@ -326,15 +335,24 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
               <item name="ch06" type="462c0819:PsiDirectoryNode" />
-              <item name="bmw" type="462c0819:PsiDirectoryNode" />
+              <item name="user_agent_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
               <item name="ch06" type="462c0819:PsiDirectoryNode" />
-              <item name="bmw" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="user_agent_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user_agent_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="21DaysOfDistributedSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
+              <item name="user_agent_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user_agent_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.328">
+  <component name="RunManager" selected="Python.start (1)">
     <configuration name="142" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -426,20 +444,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="876" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="617" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Program Files (x86)\Python3.6.4\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/876.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/617.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="700" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files (x86)\Python3.6.4\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/700.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,42 +510,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk" />
+      <option name="SDK_HOME" value="D:\Program Files (x86)\Python3.6.4\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/pipelines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -515,19 +533,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.start" />
-      <item itemvalue="Python.876" />
-      <item itemvalue="Python.pipelines" />
       <item itemvalue="Python.142" />
       <item itemvalue="Python.328" />
+      <item itemvalue="Python.617" />
+      <item itemvalue="Python.700" />
+      <item itemvalue="Python.start (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start (1)" />
+        <item itemvalue="Python.700" />
+        <item itemvalue="Python.617" />
         <item itemvalue="Python.328" />
         <item itemvalue="Python.142" />
-        <item itemvalue="Python.start" />
-        <item itemvalue="Python.pipelines" />
-        <item itemvalue="Python.876" />
       </list>
     </recent_temporary>
   </component>
@@ -601,12 +619,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49552238" visible="true" weight="0.24171382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49552238" visible="true" weight="0.24171382" />
       <window_info id="Structure" order="1" sideWeight="0.5044776" side_tool="true" weight="0.19725141" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32724252" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2026578" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43521595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,7 +633,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.47840533" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.29734218" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" weight="0.29734218" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4995958" weight="0.3554817" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -659,43 +677,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/876.py" />
-    <entry file="file://$PROJECT_DIR$/21MergeList.py" />
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="160" selection-start-column="160" selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/exporters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1900">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/duanzi3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="675" selection-start-line="675" selection-end-line="675" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/scrapy_demo/qsbk/qsbk/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-589">
@@ -856,74 +837,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEf1uqOcmAbTr0AAdv4TA00k0654.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEfVuqOdSAacwwAAekESzp0n4618.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChcCSVuqOceAQyiPAAVkdmn8XEU767.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/7-La668110.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi6ALJ9NAAavhbdCtzA780.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi-AFk4uAAYsKgsWg0M683.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/QAAYqcBV1GTo457.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/fAAadKIc6o1c999.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/ChcCr1qc0sGAInpKAArHdY3KG8w630.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="19">
-            <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/pipelines/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="161" column="12" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEf1uqOcmAbTr0AAdv4TA00k0654.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChsEfVuqOdSAacwwAAekESzp0n4618.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/ChcCSVuqOceAQyiPAAVkdmn8XEU767.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/中控方向盘/7-La668110.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi6ALJ9NAAavhbdCtzA780.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/ChsEfVuqOi-AFk4uAAYsKgsWg0M683.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/QAAYqcBV1GTo457.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/车厢座椅/fAAadKIc6o1c999.jpg" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.txt" />
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/评测/ChcCr1qc0sGAInpKAArHdY3KG8w630.jpg" />
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        <state relative-caret-position="259">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
@@ -933,15 +860,111 @@
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/images/改装/3a3cdd67fbbb2e47592dbeed59c03f71347c1df1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/spiders/bw5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/pipelines/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/bmw/bmw/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="228">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="e#194#203#0" expanded="true" />
             <marker date="1543220356604" expanded="true" signature="358:524" ph="..." />
             <marker date="1543220356604" expanded="true" signature="1083:1279" ph="..." />
             <marker date="1543220356604" expanded="true" signature="1274:1275" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/biji.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/617.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <marker date="1543320923803" expanded="true" signature="106:108" ph="..." />
+            <marker date="1543320923803" expanded="true" signature="216:219" ph="..." />
+            <marker date="1543320923803" expanded="true" signature="392:394" ph="..." />
+            <marker date="1543320923803" expanded="true" signature="689:974" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python3.6.4/Lib/site-packages/scrapy/core/downloader/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#195#0" expanded="true" />
+            <marker date="1543326735138" expanded="true" signature="3936:3939" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21DaysOfDistributedSpider/ch06/user_agent_demo/user_agent_demo/spiders/httpbin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
