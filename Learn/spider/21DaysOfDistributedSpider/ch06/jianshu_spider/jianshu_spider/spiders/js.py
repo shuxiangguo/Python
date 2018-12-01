@@ -31,6 +31,13 @@ class JsSpider(CrawlSpider):
         article_id = url2.split('/')[-1] # 拿到id
         content = response.xpath("//div[@class='show-content-free']").get()
 
+        word_count = response.xpath("//span[@class='wordage']/text()").get()
+        read_count = response.xpath("//span[@class='views-count']/text()").get()
+        like_count = response.xpath("//span[@class='likes-count']/text()").get()
+        commnent_count = response.xpath("//span[@class='comments-count']/text()").get()
+
+        subjects = ",".join(response.xpath("//div[@class='include-collection']/a/div/text()").getall())
+
         item = JianshuSpiderItem(
             title=title,
             author=author,
@@ -38,6 +45,11 @@ class JsSpider(CrawlSpider):
             pub_time=pub_time,
             avatar=avatar,
             original_url = url,
-            article_id=article_id
+            article_id=article_id,
+            subjects=subjects,
+            word_count=word_count,
+            read_count=read_count,
+            like_count=like_count,
+            commnent_count=commnent_count
         )
         yield item
