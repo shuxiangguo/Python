@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for jianshu_spider project
+# Scrapy settings for fang project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jianshu_spider'
+BOT_NAME = 'fang'
 
-SPIDER_MODULES = ['jianshu_spider.spiders']
-NEWSPIDER_MODULE = 'jianshu_spider.spiders'
+SPIDER_MODULES = ['fang.spiders']
+NEWSPIDER_MODULE = 'fang.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'jianshu_spider (+http://www.yourdomain.com)'
+#USER_AGENT = 'fang (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -24,7 +24,7 @@ ROBOTSTXT_OBEY = False
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
-# Configure a delay for requests for th	e same website (default: 0)
+# Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 DOWNLOAD_DELAY = 3
@@ -42,19 +42,18 @@ DOWNLOAD_DELAY = 3
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
 }
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'jianshu_spider.middlewares.JianshuSpiderSpiderMiddleware': 543,
+#    'fang.middlewares.FangSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'jianshu_spider.middlewares.SeleniumDownloadeMiddleware': 543,
+   'fang.middlewares.UserAgentDownloadMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -65,10 +64,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   # 'jianshu_spider.pipelines.JianshuSpiderPipeline': 300,
-	'jianshu_spider.pipelines.JianshuTwistedPipeline': 300,
-}
+#ITEM_PIPELINES = {
+#    'fang.pipelines.FangPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
