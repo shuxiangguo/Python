@@ -64,9 +64,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'fang.pipelines.FangPipeline': 300,
-# }
+ITEM_PIPELINES = {
+   'fang.pipelines.FangPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,22 +88,3 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
-#Scrapy_Redis相关配置
-#确保request存储到redis中
-SCHEDULER = "scrapy_redis.scheduler.Scheduler"
-
-#确保所有爬虫共享相同的去重指纹
-DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-
-#设置redis为item pipeline
-ITEM_PIPELINES = {
-    'scrapy_redis.pipelines.RedisPipeline': 300,
-}
-
-#在redis中保持scrapy-redis用到的队列，不会清除redis中的队列，从而可以实现暂停和恢复的功能
-SCHEDULER_PERSIST = True
-
-#设置连接redis信息
-REDIS_HOST = '127.0.0.1'
-REDIS_PORT = '6379'

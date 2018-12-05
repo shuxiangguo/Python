@@ -14,3 +14,34 @@
     北京新房链接：http://newhouse.fang.com/house/s/
     北京二手房链接：http://esf.fang.com/
 
+
+
+Scrapy-Redis分布式爬虫
+将一个scrapy爬虫项目改写成一个Scrapy-redis项目，只需要修改以下三点即可：
+1.将爬虫的类从scrapy.spider改成scrapy_redis.spiders.RedisSpider；
+或者从CrawlSpider改成scrapy_redis.spiders.RedisCrawlSpider.
+2.将爬虫中的start_url删掉。增加一个redis_key = "xxx"。这个redis_key是为了以后在redis中控制爬虫启动的。
+爬虫的第一个url，就是在redis中通过这个发送出去的。
+3.配置文件中增加如下配置
+    #Scrapy_Redis相关配置
+    #确保request存储到redis中
+    SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+
+    #确保所有爬虫共享相同的去重指纹
+    DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+
+    #设置redis为item pipeline
+    ITEM_PIPELINES = {
+        'scrapy_redis.pipelines.RedisPipeline': 300,
+    }
+
+    #在redis中保持scrapy-redis用到的队列，不会清除redis中的队列，从而可以实现暂停和恢复的功能
+    SCHEDULER_PERSIST = True
+
+    #设置连接redis信息
+    REDIS_HOST = '127.0.0.1'
+    REDIS_PORT = '6379'
+
+ 运行分布式爬虫：
+ 1.在爬虫服务器上，进入爬虫文件所在的目录，然后输入命令：scrapy runspider  [爬虫名字]
+ 2.在redis服务器上，推入一个开始的url链接：redis-cli>lpush [redis-key] start_url开始爬取

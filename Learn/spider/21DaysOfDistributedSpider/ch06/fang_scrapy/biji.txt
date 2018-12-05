@@ -1,0 +1,16 @@
+1.获取所有城市的url链接：
+    http://www.fang.com/SoufunFamily.htm
+
+2.获取所有城市新房的url链接
+    如：苏州：http://suzhou.fang.com/
+    苏州新房：http://newhouse.suzhou.fang.com/house/s/
+
+3.获取所有城市而搜后方的url链接
+    如：苏州：http://suzhou.fang.com/
+        苏州二手房：http://esf.suzhou.fang.com/
+
+
+ 北京是个例外：
+    北京新房链接：http://newhouse.fang.com/house/s/
+    北京二手房链接：http://esf.fang.com/
+

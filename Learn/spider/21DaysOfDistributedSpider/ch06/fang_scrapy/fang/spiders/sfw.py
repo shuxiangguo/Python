@@ -2,13 +2,11 @@
 import scrapy
 import re
 from fang.items import NewHouseItem, ESFHouseItem
-from scrapy_redis.spiders import RedisSpider
 
-class SfwSpider(RedisSpider):
+class SfwSpider(scrapy.Spider):
     name = 'sfw'
     allowed_domains = ['fang.com']
-    #start_urls = ['http://www.fang.com/SoufunFamily.htm']
-    redis_key = "fang:start_urls"
+    start_urls = ['http://www.fang.com/SoufunFamily.htm']
 
     def parse(self, response):
         trs = response.xpath("//div[@class='outCont']//tr")
