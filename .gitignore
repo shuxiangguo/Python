@@ -2,3 +2,5 @@
 *.pyc
 images
 *.json
+ml/.idea/workspace.xml
+ml/captcha/logs/*
