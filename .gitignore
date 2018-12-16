@@ -4,3 +4,4 @@ images
 *.json
 ml/.idea/workspace.xml
 ml/captcha/logs/*
+.ipynb_checkpoints
