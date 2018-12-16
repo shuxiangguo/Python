@@ -1,1 +1,2 @@
-# Python
+python daily study
+not tomorrow
